@@ -11,19 +11,23 @@ int main(int argc, char *argv[])
     int grade[5];
     int sum=0;
     
-    for (i=o;i<5;i++)
+    for (i=0;i<5;i++)
     {
         printf("grade[%i]= ", i);
         scanf("%d", &grade[i]);
         
-    for (i=o;i<5,i++)
+    for (i=0;i<5;i++)
     {
         printf("grade[%i] = %i\n", i, *(grade+i));
         sum=sum + *(grade+i);
         }
         
-    printf("Average  : %i\n", sum(5);
+    printf("Average  : %i\n", sum/5);
   
   system("PAUSE");	
   return 0;
 }
+
+
+
+
